@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="29.6279">
+    <testcase classname="UBS Website Features" name="User is on UBS HomePage" time="16.153902">
+        <system-out><![CDATA[Given User navigates to UBS website.........................................passed
+When Title of the page is valid.............................................passed
+Then User is on UBS HomePage................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UBS Website Features" name="Click on Contact Button and select Contact Us Button and verify page title" time="3.348477">
+        <system-out><![CDATA[Given User Clicks on Contact button to select Contact Us OPtion.............passed
+When Title of the Contact page is valid.....................................passed
+Then I am on Contact Page...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="UBS Website Features" name="Click on UBS Logins and Select US Client Acc Login Option and verify Page Title" time="10.125521">
+        <system-out><![CDATA[Given User clicks on UBS Logins and Select US Client Acc Login Option.......passed
+When Title of the Login page is valid.......................................passed
+Then I am on Login Page.....................................................passed
+Then I enter "User" and "paswd".............................................passed
+Then I click on SignIn button...............................................passed
+Then I verify message.......................................................passed
+And I close the browser.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
